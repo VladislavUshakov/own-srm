@@ -1,0 +1,32 @@
+{
+  "name": "own-srm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./server.js",
+    "dev": "cross-env NODE_ENV=development nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavUshakov/own-srm.git"
+  },
+  "keywords": [],
+  "author": "Vlad Ushakov <vlad.ushakov.977@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavUshakov/own-srm/issues"
+  },
+  "homepage": "https://github.com/VladislavUshakov/own-srm#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.5",
+    "morgan": "^1.10.0"
+  }
+}
